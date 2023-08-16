@@ -51,6 +51,7 @@
   transition: 0.5s ease;
   flex-direction: column;
   z-index: 5;
+  padding-top: 3rem;
 }
 .App__navbar-smallscreen-overlay .overlay__close {
   font-size: 27px;
@@ -62,6 +63,7 @@
   font-family: garamond;
 }
 .App__navbar-smallscreen-overlay a {
+  padding-top: 20px;
   list-style: none;
   text-decoration: none;
   margin: 7px;
