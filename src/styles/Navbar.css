@@ -1,9 +1,11 @@
 .App__navbar {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+  background-color: #fafafa;
 }
 .App__navbar-logo {
   display: flex;
@@ -11,7 +13,7 @@
   align-items: center;
 }
 .App__navbar-logo img {
-  width: 90px;
+  width: 7vw;
 }
 .App__navbar-links {
   flex: 1;
@@ -90,7 +92,7 @@
     padding: 1rem;
   }
 
-  .app__navbar-logo img {
-    width: 100px;
+  .App__navbar-logo img {
+    width: 90px;
   }
 }

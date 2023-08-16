@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Navbar.css";
-import logos from "../img/logo.jpg";
+import logos from "../img/logo-modified.png";
 import { Link, useLocation } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineCloseCircle } from "react-icons/ai";

@@ -2,9 +2,10 @@
   position: relative;
   width: 100%;
   max-width: 100%;
-  height: 700px; /* Adjust this for desktop */
+  height: 500px; /* Adjust this for desktop */
   overflow: hidden;
   margin: 0 auto; /* Center the container horizontally */
+  padding-bottom: auto; /* 16:9 aspect ratio */
 }
 
 @media (max-width: 768px) {

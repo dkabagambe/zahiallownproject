@@ -7,9 +7,11 @@
 }
 body {
   text-align: center;
-  background-color: #ffffff;
+  background-color: #fafafa;
   padding: 0;
   margin: 0;
   color: #000000;
   font-family: "Noto Serif", serif;
+  height: 100%;
+  width: 100%;
 }
