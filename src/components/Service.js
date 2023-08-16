@@ -38,6 +38,7 @@ const Service = ({ serviceName, description, videoUrl }) => {
           height="315"
           src={videoUrl}
           frameBorder="0"
+          allow="autoplay; encrypted-media"
           allowFullScreen
         ></iframe>
       </div>
