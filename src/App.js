@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import WhatsApp from "./components/WhatsApp";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact ";
 
 function App() {
   return (
@@ -12,13 +14,13 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
           {/* <Route path="/about" element={<About />} />
           <Route path="/clients" element={<Clients />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/services" element={<Services />} />
           <Route path="/mission" element={<Mission />} />
           <Route path="/machines" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>
         <WhatsApp />

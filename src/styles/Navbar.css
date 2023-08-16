@@ -32,6 +32,7 @@
   transition: 0.5s ease;
   color: #122e53;
   line-height: 1;
+  font-family: var(--font-base);
 }
 .App__navbar-links a:hover {
   color: #f26722;

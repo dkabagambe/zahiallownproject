@@ -20,11 +20,11 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="App__navbar-links">
-          <Link to="">Home</Link>
-          <Link to="">Services</Link>
+          <Link to="/">Home</Link>
+          <Link to="/services">Services</Link>
           <Link to="">About Us</Link>
           <Link to="">Gallery</Link>
-          <Link to="">Contact Us</Link>
+          <Link to="/contact">Contact Us</Link>
         </div>
         <div className="App__navbar-smallscreen">
           <GiHamburgerMenu
@@ -47,7 +47,7 @@ const Navbar = () => {
               <Link to="">Services</Link>
               <Link to="">About Us</Link>
               <Link to="">Gallery</Link>
-              <Link to="">Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </div>
           )}
         </div>
