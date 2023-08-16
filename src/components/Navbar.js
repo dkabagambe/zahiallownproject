@@ -44,7 +44,7 @@ const Navbar = () => {
                 onClick={() => setToggleMenu(false)}
               />
               <Link to="">Home</Link>
-              <Link to="">Services</Link>
+              <Link to="/services">Services</Link>
               <Link to="">About Us</Link>
               <Link to="">Gallery</Link>
               <Link to="/contact">Contact Us</Link>
