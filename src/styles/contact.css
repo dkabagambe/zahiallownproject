@@ -29,7 +29,7 @@
 }
 .number p :last-child {
   color: #122e53;
-  font-weight: 600;
+  font-weight: 300;
   font-family: cormorant;
 }
 .hour {
