@@ -9,37 +9,46 @@
 .number {
   padding: 3px 1px;
   flex: 0.3;
-  align-items: center;
+  justify-self: flex-start;
   line-height: 1.4;
 }
 .number h3 {
   font-size: 20px;
   font-family: var(--font-base);
   padding: 10px;
-  align-items: left;
   font-weight: 500;
   color: #000;
 }
 .number p {
   font-size: 20px;
-  font-family: dosis;
+  font-family: monospace;
   padding: 10px 5px;
-  align-items: center;
+  align-items: left;
   font-weight: 540;
+  padding-right: 30px;
+}
+.number p :last-child {
+  color: #122e53;
+  font-weight: 600;
+  font-family: cormorant;
 }
 .hour {
   padding: 3px 1px;
   flex: 0.3;
   line-height: 1.4;
+  font-weight: 600;
+  align-self: center;
 }
 .hour h2 {
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
   margin: 10px;
+  font-family: dosis;
 }
 .hour p {
   font-size: 20px;
   padding: 10px;
+  text-align: center;
 }
 .form-item {
   padding: 15px 1px;
