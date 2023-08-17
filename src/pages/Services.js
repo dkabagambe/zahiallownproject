@@ -1,8 +1,8 @@
 import React from "react";
 import Service from "../components/Service";
+import videoFile3 from "../img/VID-20230815-WA0024.mp4";
 // import videoFile1 from "../img/VID-20230815-WA0025.mp4";
 // import videoFile2 from "../img/VID-20230815-WA0023.mp4";
-import videoFile3 from "../img/VID-20230815-WA0024.mp4";
 
 const servicesData = [
   {
