@@ -3,6 +3,8 @@ import "../styles/contact.css";
 import { MdLockOutline, MdCallEnd } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
+import { FaUnlockAlt } from "react-icons/fa";
+
 // import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -72,19 +74,19 @@ const Contact = () => {
       </div>
       <div className="hour">
         <h2>Open Hours</h2>
-        <p>Monday to Friday</p>
+        <p>Sunday to Thursday</p>
         <p>8:00 AM - 5:00 PM</p>
         <p>
-          <MdLockOutline
+          <FaUnlockAlt
             style={{ color: "#f26722", marginRight: "10px", fontSize: "20px" }}
           />
-          Saturday: Closed
+          Friday: 8:00 AM - 12:00 PM
         </p>
         <p>
           <MdLockOutline
             style={{ color: "#f26722", marginRight: "10px", fontSize: "20px" }}
           />
-          Sunday: Closed
+          Saturday: Closed
         </p>
       </div>
       <div className="form-item">
