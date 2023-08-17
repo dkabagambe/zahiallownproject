@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="App__navbar-links">
           <Link to="/">Home</Link>
           <Link to="/services">Services</Link>
-          <Link to="">About Us</Link>
+          <Link to="/about">About Us</Link>
           <Link to="">Gallery</Link>
           <Link to="/contact">Contact Us</Link>
         </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
               />
               <Link to="">Home</Link>
               <Link to="/services">Services</Link>
-              <Link to="">About Us</Link>
+              <Link to="/about">About Us</Link>
               <Link to="">Gallery</Link>
               <Link to="/contact">Contact Us</Link>
             </div>
