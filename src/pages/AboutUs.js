@@ -25,6 +25,22 @@ const AboutUs = () => {
           <ul className="list">
             <li>
               <p>
+                <strong>Maids:</strong> Our dedicated maids offer expert
+                cleaning and support services, ensuring your spaces are
+                well-maintained and organized. They bring professionalism and
+                attention to detail to every task.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Security Guards:</strong> Our vigilant security guards
+                provide a strong layer of protection for your premises. Trained
+                to handle various situations, they offer peace of mind and
+                safeguard your assets.
+              </p>
+            </li>
+            <li>
+              <p>
                 <strong>Labour Supply:</strong>
                 Our diverse talent reservoir comprises skilled workers ready to
                 fulfill your project's labor requirements. From skilled
