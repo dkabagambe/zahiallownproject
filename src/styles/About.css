@@ -53,10 +53,11 @@ p {
   list-style-type: none;
   padding-left: 0;
   font-size: 20px;
-  font-family: dosis;
+  font-family: garamond;
   margin-top: 20px;
   color: #122e53;
   line-height: 1.7;
+  font-weight: 600;
 }
 @media (max-width: 768px) {
   .aboutUsContainer {
