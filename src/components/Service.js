@@ -8,6 +8,8 @@ import {
   FaBuilding,
   FaClipboard,
   FaTruck,
+  FaFemale,
+  FaMale,
 } from "react-icons/fa";
 import "../styles/Services.css";
 
@@ -19,6 +21,8 @@ const icons = {
   Cleaners: FaCar,
   "Hotel Booking": FaHotel,
   Driving: FaTruck,
+  Maids: FaFemale,
+  "Security Guards": FaMale,
 };
 
 const Service = ({ serviceName, description, videoUrl }) => {

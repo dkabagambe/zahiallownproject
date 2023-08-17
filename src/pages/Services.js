@@ -6,6 +6,20 @@ import videoFile3 from "../img/VID-20230815-WA0024.mp4";
 
 const servicesData = [
   {
+    serviceName: "Maids",
+    description:
+      "Rediscover cleanliness and tranquility at home with our attentive maid service. Our expert team ensures thorough cleaning, using eco-friendly products. From regular maintenance to deep cleansing, our maids create a pristine environment for your peace of mind.",
+    videoUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNqllagbCGm-rp5jn-ZfBdMzw-WMxy09YZtA&usqp=CAU",
+  },
+  {
+    serviceName: "Security Guards",
+    description:
+      "Experience safety and peace of mind with our vigilant security guards. Our trained professionals ensure round-the-clock protection, enhancing your premises' security. From preventing unauthorized access to maintaining a secure environment, our security guards prioritize your safety.",
+    videoUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQThrI3qNRFBbFXRVxAS5qXUH-QvL3B7N1Hhw&usqp=CAU",
+  },
+  {
     serviceName: "Labour Supply",
     description:
       "Looking for skilled and reliable labor supply? Our dedicated workforce is ready to assist you with a range of tasks, from construction to maintenance. We provide hardworking professionals who are trained to handle various manual and technical jobs efficiently",
