@@ -9,7 +9,7 @@ const servicesData = [
     serviceName: "Labour Supply",
     description:
       "Looking for skilled and reliable labor supply? Our dedicated workforce is ready to assist you with a range of tasks, from construction to maintenance. We provide hardworking professionals who are trained to handle various manual and technical jobs efficiently",
-    videoUrl: videoFile1,
+    videoUrl: "https://www.youtube.com/embed/q1eynPGZAHo?controls=0",
   },
   {
     serviceName: "Helpers at Sites",
