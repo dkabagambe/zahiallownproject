@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to="/">Home</Link>
           <Link to="/services">Services</Link>
           <Link to="/about">About Us</Link>
-          <Link to="">Gallery</Link>
+          <Link to="/gallery">Gallery</Link>
           <Link to="/contact">Contact Us</Link>
         </div>
         <div className="App__navbar-smallscreen">
@@ -46,7 +46,7 @@ const Navbar = () => {
               <Link to="">Home</Link>
               <Link to="/services">Services</Link>
               <Link to="/about">About Us</Link>
-              <Link to="">Gallery</Link>
+              <Link to="/gallery">Gallery</Link>
               <Link to="/contact">Contact Us</Link>
             </div>
           )}
