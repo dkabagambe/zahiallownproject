@@ -106,4 +106,8 @@
     height: auto;
     width: 100%;
   }
+  .gallery-heading {
+    font-size: 17px;
+    list-style: normal;
+  }
 }
