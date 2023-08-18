@@ -25,11 +25,10 @@ const AboutUs = () => {
           <ul className="list">
             <li>
               <p>
-                <strong>Dubai Tourism:</strong> Immerse yourself in the dazzling
-                allure of Dubai, right here in Africa. Our curated experiences
-                blend the opulence of Dubai with the beauty of African wildlife.
-                Discover a journey that harmonizes two worlds, creating memories
-                that last a lifetime.
+                <strong>Maids:</strong> Our dedicated maids offer expert
+                cleaning and support services, ensuring your spaces are
+                well-maintained and organized. They bring professionalism and
+                attention to detail to every task.
               </p>
             </li>
             <li>
@@ -38,6 +37,15 @@ const AboutUs = () => {
                 provide a strong layer of protection for your premises. Trained
                 to handle various situations, they offer peace of mind and
                 safeguard your assets.
+              </p>
+            </li>
+            <li>
+              <p>
+                <strong>Dubai Tourism:</strong> Immerse yourself in the dazzling
+                allure of Dubai, right here in Africa. Our curated experiences
+                blend the opulence of Dubai with the beauty of African wildlife.
+                Discover a journey that harmonizes two worlds, creating memories
+                that last a lifetime.
               </p>
             </li>
             <li>
