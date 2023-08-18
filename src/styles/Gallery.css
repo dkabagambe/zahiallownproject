@@ -54,6 +54,9 @@
   -moz-user-select: none;
   -webkit-user-select: none;
 }
+.styles-module_image__2hdkJ.video-container {
+  object-fit: fill;
+}
 .styles-module_navigation__1pqAE {
   opacity: 1 !important;
 }

@@ -2,7 +2,7 @@ import { useState, useCallback } from "react";
 import "../styles/Gallery.css";
 import ImageViewer from "react-simple-image-viewer";
 import image1 from "../img/drivers.jpg";
-import image2 from "../img/hotel.jpg";
+import image2 from "../img/cleaners.jpg";
 import image3 from "../img/guards.jpg";
 import image4 from "../img/hotel1.jpg";
 import image5 from "../img/driver.jpg";
@@ -13,13 +13,11 @@ import image9 from "../img/hotel.jpg";
 import image10 from "../img/clean.jpg";
 import image11 from "../img/hotel2.jpg";
 import image12 from "../img/ware1.jpg";
-import image13 from "../img/cleaners.jpg";
 
 const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [
-    image13,
     image1,
     image2,
     image3,
