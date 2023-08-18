@@ -3,6 +3,7 @@ import Service from "../components/Service";
 import videoFile3 from "../img/VID-20230815-WA0024.mp4";
 import videoFile1 from "../img/home2.mp4";
 import videoFile2 from "../img/home1.mp4";
+import tour from "../img/hotel.jpg";
 
 const servicesData = [
   {
@@ -28,7 +29,7 @@ const servicesData = [
     serviceName: "Dubai Tourism",
     description:
       "Immerse yourself in the captivating fusion of Dubai's vibrancy and the enchanting African wildlife. Our exceptional combination seamlessly bridges the gap between the essence of Dubai and the natural world, resulting in an extraordinary and indelible journey. Encounter the unparalleled charm of Dubai while being surrounded by the untamed beauty of African landscapes, forging a remarkable and unforgettable adventure that harmoniously marries urban excitement with the serenity of nature.",
-    videoUrl: "https://www.youtube.com/embed/M32JRrVoVhQ?controls=0&showinfo=0",
+    videoUrl: tour,
   },
   {
     serviceName: "Helpers at Sites",
