@@ -8,6 +8,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact ";
 import AboutUs from "./pages/AboutUs";
 import Gallery from "./pages/Gallery";
+import VideoContainer from "./components/VideoContainer";
 
 function App() {
   return (
@@ -19,11 +20,8 @@ function App() {
           <Route path="/about" element={<AboutUs />} />
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/video" element={<VideoContainer />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/clients" element={<Clients />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/mission" element={<Mission />} />
-          <Route path="*" element={<NotFoundPage />} /> */}
         </Routes>
         <WhatsApp />
         <Footer />

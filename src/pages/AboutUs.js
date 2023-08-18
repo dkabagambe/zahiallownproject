@@ -108,6 +108,7 @@ const AboutUs = () => {
             </li>
           </ul>
         </section>
+
         <section className="section">
           <h2>Our Strategic Location</h2>
           <p>
