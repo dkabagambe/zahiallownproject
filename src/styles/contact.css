@@ -16,6 +16,7 @@
 }
 .house > img {
   object-fit: cover;
+  width: 100%;
 }
 .number {
   padding: 3px 1px;
