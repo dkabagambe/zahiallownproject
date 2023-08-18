@@ -7,12 +7,12 @@
   width: 100%;
 }
 .house {
-  padding: 10px 15px;
   display: flex;
   align-items: center;
   justify-items: center;
   height: 100%;
   width: 100%;
+  margin: 2px;
 }
 .house > img {
   object-fit: cover;
