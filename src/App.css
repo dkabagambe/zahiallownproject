@@ -5,6 +5,7 @@
   scroll-behavior: smooth;
   box-sizing: border-box;
 }
+html,
 body {
   text-align: center;
   background-color: #fafafa;
@@ -14,4 +15,5 @@ body {
   font-family: "Noto Serif", serif;
   height: 100%;
   width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
