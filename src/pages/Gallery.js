@@ -47,7 +47,7 @@ const Gallery = () => {
       <h1 className="gallery-heading">
         Explore Our Service Offerings Through These Images
       </h1>
-      {/* Added heading */}
+
       <div className="image-gallery">
         {images.map((src, index) => (
           <img
