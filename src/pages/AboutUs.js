@@ -41,11 +41,12 @@ const AboutUs = () => {
             </li>
             <li>
               <p>
-                <strong>Labour Supply:</strong>
-                Our diverse talent reservoir comprises skilled workers ready to
-                fulfill your project's labor requirements. From skilled
-                tradespeople to general laborers, we have the workforce you
-                need.
+                <strong>Air Conditioner Installation:</strong>
+                Our dedicated installation team is equipped to handle all
+                aspects of AC installation. Whether it's window units or central
+                systems, we ensure precise setup for optimal cooling. Sit back
+                and relax as our experts handle your cooling needs with
+                professionalism.
               </p>
             </li>
             <li>

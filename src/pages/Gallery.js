@@ -13,11 +13,13 @@ import image9 from "../img/hotel.jpg";
 import image10 from "../img/clean.jpg";
 import image11 from "../img/hotel2.jpg";
 import image12 from "../img/ware1.jpg";
+import image13 from "../img/cleaners.jpg";
 
 const Gallery = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
   const images = [
+    image13,
     image1,
     image2,
     image3,

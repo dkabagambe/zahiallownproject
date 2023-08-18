@@ -4,7 +4,7 @@ import {
   FaWrench,
   FaCar,
   FaHotel,
-  FaUser,
+  FaSnowflake,
   FaBuilding,
   FaClipboard,
   FaTruck,
@@ -14,7 +14,7 @@ import {
 import "../styles/Services.css";
 
 const icons = {
-  "Labour Supply": FaUser,
+  "Air conditioners Installation": FaSnowflake,
   "Helpers at Sites": FaBuilding,
   "Sales Personnels": FaClipboard,
   Technicians: FaWrench,

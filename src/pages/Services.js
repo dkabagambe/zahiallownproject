@@ -1,16 +1,15 @@
 import React from "react";
 import Service from "../components/Service";
 import videoFile3 from "../img/VID-20230815-WA0024.mp4";
-// import videoFile1 from "../img/VID-20230815-WA0025.mp4";
-// import videoFile2 from "../img/VID-20230815-WA0023.mp4";
+import videoFile1 from "../img/home2.mp4";
+import videoFile2 from "../img/home1.mp4";
 
 const servicesData = [
   {
     serviceName: "Maids",
     description:
       "Rediscover cleanliness and tranquility at home with our attentive maid service. Our expert team ensures thorough cleaning, using eco-friendly products. From regular maintenance to deep cleansing, our maids create a pristine environment for your peace of mind.",
-    videoUrl:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNqllagbCGm-rp5jn-ZfBdMzw-WMxy09YZtA&usqp=CAU",
+    videoUrl: videoFile2,
   },
   {
     serviceName: "Security Guards",
@@ -20,9 +19,9 @@ const servicesData = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQThrI3qNRFBbFXRVxAS5qXUH-QvL3B7N1Hhw&usqp=CAU",
   },
   {
-    serviceName: "Labour Supply",
+    serviceName: "Air conditioners Installation",
     description:
-      "Looking for skilled and reliable labor supply? Our dedicated workforce is ready to assist you with a range of tasks, from construction to maintenance. We provide hardworking professionals who are trained to handle various manual and technical jobs efficiently",
+      "Experience hassle-free Air Conditioner installation by our skilled technicians. Stay comfortable indoors with our efficient service. Book now for a prompt and professional setup. Your cooling needs are our priority.",
     videoUrl: "https://www.youtube.com/embed/q1eynPGZAHo?controls=0",
   },
   {
@@ -47,7 +46,7 @@ const servicesData = [
     serviceName: "Cleaners",
     description:
       "Maintain a clean and organized environment with our professional cleaning services. Our team of cleaners ensures that your spaces are spotless and hygienic, providing a comfortable and welcoming atmosphere for employees and visitors alike.",
-    videoUrl: "https://www.youtube.com/embed/48vawUlO7ag?controls=0&showinfo=0",
+    videoUrl: videoFile1,
   },
   {
     serviceName: "Hotel Booking",
