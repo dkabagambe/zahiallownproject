@@ -10,6 +10,7 @@ import {
   FaTruck,
   FaFemale,
   FaMale,
+  FaSuitcase,
 } from "react-icons/fa";
 import "../styles/Services.css";
 
@@ -18,6 +19,7 @@ const icons = {
   "Helpers at Sites": FaBuilding,
   "Sales Personnels": FaClipboard,
   Technicians: FaWrench,
+  "Dubai Tourism": FaSuitcase,
   Cleaners: FaCar,
   "Hotel Booking": FaHotel,
   Driving: FaTruck,

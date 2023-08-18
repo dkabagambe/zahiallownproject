@@ -25,10 +25,11 @@ const AboutUs = () => {
           <ul className="list">
             <li>
               <p>
-                <strong>Maids:</strong> Our dedicated maids offer expert
-                cleaning and support services, ensuring your spaces are
-                well-maintained and organized. They bring professionalism and
-                attention to detail to every task.
+                <strong>Dubai Tourism:</strong> Immerse yourself in the dazzling
+                allure of Dubai, right here in Africa. Our curated experiences
+                blend the opulence of Dubai with the beauty of African wildlife.
+                Discover a journey that harmonizes two worlds, creating memories
+                that last a lifetime.
               </p>
             </li>
             <li>

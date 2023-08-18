@@ -25,6 +25,12 @@ const servicesData = [
     videoUrl: "https://www.youtube.com/embed/q1eynPGZAHo?controls=0",
   },
   {
+    serviceName: "Dubai Tourism",
+    description:
+      "Immerse yourself in the captivating fusion of Dubai's vibrancy and the enchanting African wildlife. Our exceptional combination seamlessly bridges the gap between the essence of Dubai and the natural world, resulting in an extraordinary and indelible journey. Encounter the unparalleled charm of Dubai while being surrounded by the untamed beauty of African landscapes, forging a remarkable and unforgettable adventure that harmoniously marries urban excitement with the serenity of nature.",
+    videoUrl: "https://www.youtube.com/embed/M32JRrVoVhQ?controls=0&showinfo=0",
+  },
+  {
     serviceName: "Helpers at Sites",
     description:
       "Make your construction sites more efficient with our experienced helpers. Our team of site assistants is well-versed in providing support to construction projects. Whether it's lifting, carrying, or organizing materials, our helpers ensure a smooth workflow at your sites.",
