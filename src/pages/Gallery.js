@@ -7,7 +7,6 @@ import image3 from "../img/guards.jpg";
 import image4 from "../img/hotel1.jpg";
 import image5 from "../img/driver.jpg";
 import image6 from "../img/ware2.jpg";
-import image7 from "../img/acs.jpg";
 import image8 from "../img/maids1.jpg";
 import image9 from "../img/hotel.jpg";
 import image10 from "../img/clean.jpg";
@@ -24,7 +23,6 @@ const Gallery = () => {
     image4,
     image5,
     image6,
-    image7,
     image8,
     image9,
     image10,
