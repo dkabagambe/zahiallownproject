@@ -1,10 +1,9 @@
 import React from "react";
 import Service from "../components/Service";
 import videoFile3 from "../img/VID-20230815-WA0024.mp4";
-import videoFile1 from "../img/home2.mp4";
 import videoFile2 from "../img/home1.mp4";
 import tour from "../img/hotel.jpg";
-
+import image2 from "../img/cleaners.jpg";
 const servicesData = [
   {
     serviceName: "Maids",
@@ -53,7 +52,7 @@ const servicesData = [
     serviceName: "Cleaners",
     description:
       "Maintain a clean and organized environment with our professional cleaning services. Our team of cleaners ensures that your spaces are spotless and hygienic, providing a comfortable and welcoming atmosphere for employees and visitors alike.",
-    videoUrl: videoFile1,
+    videoUrl: image2,
   },
   {
     serviceName: "Hotel Booking",

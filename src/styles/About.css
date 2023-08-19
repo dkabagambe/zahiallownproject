@@ -1,12 +1,12 @@
 .aboutUsContainer {
   padding: 20px;
-  background-color: #fafafa;
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #e0e0e0;
 }
 
 .content {
