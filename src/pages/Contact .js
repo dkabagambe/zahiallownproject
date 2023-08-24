@@ -1,37 +1,36 @@
-// import { useRef } from "react";
+import { useRef } from "react";
 import "../styles/contact.css";
 import { MdLockOutline, MdCallEnd } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { FaUnlockAlt } from "react-icons/fa";
 import house from "../img/AL-MUTEENA-TECHNIC-BLDG.jpg";
-
-// import emailjs from "@emailjs/browser";
-
+import emailjs from "@emailjs/browser";
+//0701665115
 const Contact = () => {
-  // const form = useRef();
+  const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs
-  //     .sendForm(
-  //       "service_lbveonj",
-  //       "template_tk08jst",
-  //       form.current,
-  //       "IaD2VR089lJmkpBd2"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
+    emailjs
+      .sendForm(
+        "service_qjpcd7h",
+        "template_fj7s8lr",
+        form.current,
+        "zLLeWJA3G3UHBTpKC"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
 
-  //         e.target.reset();
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //       }
-  //     );
-  // };
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
     <>
@@ -124,14 +123,14 @@ const Contact = () => {
           </p>
         </div>
         <div className="form-item">
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <div>
               <input type="text" name="user_name" />
             </div>
             <label>Email</label>
             <div>
-              <input type="email" name="user_email" />
+              <input type="email" name="email" />
             </div>
             <label>Message</label>
             <div>
