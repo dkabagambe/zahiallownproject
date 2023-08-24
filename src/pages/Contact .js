@@ -4,7 +4,7 @@ import { MdLockOutline, MdCallEnd } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { GrMail } from "react-icons/gr";
 import { FaUnlockAlt } from "react-icons/fa";
-import house from "../img/AG House1.jpg";
+import house from "../img/AL-MUTEENA-TECHNIC-BLDG.jpg";
 
 // import emailjs from "@emailjs/browser";
 
@@ -41,8 +41,9 @@ const Contact = () => {
       <div className="contact">
         <div className="number">
           <h3>
-            Location m floor office 61 <br />
-            Salahuddin road Ag Building
+            AL MUTEENA TECHNIC Building <br />
+            6th floor 603 <br />
+            Office no 2
           </h3>
           <p>
             <MdCallEnd
